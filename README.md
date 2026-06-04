@@ -1,4 +1,4 @@
-# European-Power-Markets-
+# European-Power-Markets
 XGBoost predictor of Day-Ahead and Imbalance markets across ENTSO-E -> model.py
 
 # 1. Project background and goals
@@ -22,7 +22,7 @@ This project uses data from the ENTSO-E Transparency Platform. To replicate the 
 THe ENTSO-E API is difficult to use so I have used a Python client for the API, developed by EnergieID: https://github.com/EnergieID/entsoe-py. The `entsoe-py` package is MIT licensed.
 
 # 3. Training data selection
-For the purposes of this current iterations I have chosen Portugal as my test subject. It is a relatively isolated European country with only one major interconnection partner (Spain) and a heavily renewables driven power system, making the modelling more deterministic and easier to interpret. The model however is able to take any country given an appropriate country code (eg. France = FR) and appropriate mapping of its interconnect neighbours (eg. for PT this is just ES = Spain). Mappings and country codes provided in the repository **as mappings.txt**.
+For the purposes of this current iterations **I have chosen Portugal as my test subject**. It is a relatively isolated European country with only one major interconnection partner (Spain) and a heavily renewables driven power system, making the modelling more deterministic and easier to interpret. The model however is able to take any country given an appropriate country code (eg. France = FR) and appropriate mapping of its interconnect neighbours (eg. for PT this is just ES = Spain). Mappings and country codes provided in the repository **as mappings.txt**.
 
 Note that for all the forecast data pulls I will pull from the target country but also its neighbours. European countries are heavily interconnected and their supply/demand characteristics can influence neighbouring systems (eg. France is a net exporter of nuclear power to Germany).
 
