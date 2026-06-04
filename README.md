@@ -1,5 +1,7 @@
 # European-Power-Markets
-XGBoost predictor of Day-Ahead and Imbalance markets across ENTSO-E -> model.py
+XGBoost predictor of Day-Ahead and Imbalance markets across ENTSO-E 
+-> model.py has the script neatly laid out
+-> model.ipynb is how I actually run it in Colab to avoid redownloading the entire data set every time (~12min download) 
 
 # 1. Project background and goals
 Power generation and market data are incredibly rich and provided to the public via the European ENTSO-E transparency platform (https://transparency.entsoe.eu/, requires account). The platform supports data pulls of a wide range of forecast and actual generation, transmission, consumption and market data at an hourly and sub-hourly scale.
