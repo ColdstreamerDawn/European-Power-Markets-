@@ -1,6 +1,8 @@
 # European-Power-Markets
 XGBoost predictor of Day-Ahead and Imbalance markets across ENTSO-E 
+
 -> model.py has the script neatly laid out
+
 -> model.ipynb is how I actually run it in Colab to avoid redownloading the entire data set every time (~12min download) 
 
 # 1. Project background and goals
