@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import shap
 
 #Initialisation of data request, uses personal api key
-client = EntsoePandasClient(api_key="5de489ac-9680-449e-a85d-3db36070c128")
+client = EntsoePandasClient(api_key="YOURKEY")
 start = pd.Timestamp('20200603', tz='UTC') #start date of the downloaded set
 end = pd.Timestamp('20260602', tz='UTC') #end date of the downloaded set
 
